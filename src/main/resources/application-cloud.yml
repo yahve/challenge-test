@@ -7,9 +7,9 @@ spring:
   datasource:
     hikari:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbc-url: ${CLEARDB_DATABASE_URL}
+      jdbc-url: ${JAWSDB_URL}
 
-    url: ${CLEARDB_DATABASE_URL}
+    url: ${JAWSDB_URL}
 
   liquibase:
     change-log: 'classpath:db/changelog/liquibase-changelog.xml'
