@@ -6,8 +6,6 @@ import com.xvierd.challenge.user.application.exception.UserNotFoundException;
 import com.xvierd.challenge.user.domain.User;
 import com.xvierd.challenge.user.domain.service.DomainUserDeleteService;
 import com.xvierd.challenge.user.domain.service.DomainUserGetService;
-import com.xvierd.challenge.user.infrastructure.controller.UserDeleteController;
-import java.util.LinkedHashMap;
 import java.util.Optional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
