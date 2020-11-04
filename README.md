@@ -1,4 +1,3 @@
-# challenge-test
 
 # Test Challenge
 este es un proyecto abierto para la libre discusi'on de como fue hecho
