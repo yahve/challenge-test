@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: challenge
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:tc:mysql:5.7:///challenge?TC_DAEMON=true&user=root&password=&?TC_INITSCRIPT=sql-script.sql
+    hikari:
+      driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+      jdbc-url: jdbc:tc:mysql:5.7:///challenge?TC_DAEMON=true&user=root&password=&?TC_INITSCRIPT=sql-script.sql
+
+    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+
+  liquibase:
+    enabled: false
+server:
+  servlet:
+    context-path: /users
