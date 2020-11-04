@@ -2,7 +2,7 @@
 
 -- changeset xvierd:1
 
-create table challenge.`addresses` (
+create table `addresses` (
     id bigint auto_increment not null,
     street varchar(100)  null,
     state varchar(100) null,

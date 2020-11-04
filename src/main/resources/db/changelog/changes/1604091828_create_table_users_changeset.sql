@@ -2,7 +2,7 @@
 
 -- changeset xvierd:1
 
-create table challenge.`users` (
+create table `users` (
     id bigint auto_increment not null,
     name varchar(100) not null,
     email varchar(100) not null,
