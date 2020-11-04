@@ -32,6 +32,6 @@ dominio e infraestructura
 
 - El proyecto cuenta con una covertura del 95% aproximadamente.
 - se uso spock framework para testear unitariamente algunas funcionalidades
-- para el resto usamos test de integracion con el apoyo de testcontainers
+- para el resto se uso test de integracion con el apoyo de testcontainers
 
 
